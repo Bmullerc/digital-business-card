@@ -1,0 +1,183 @@
+$paragraph: #4A4E74;
+$title: #2B283A;
+$orange: #F47D27;
+$footer: #D5D4D8;
+$icons: #918E9B;
+$button: #297FE5;
+$white: #FFF;
+$background: #23252C;
+$container: #F5F5F5;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: $paragraph;
+    font-size: 12px;
+    background-color: $background;
+    line-height: 16px;
+}
+
+.true--container {
+    margin-block: 5em;
+    margin-inline: auto;
+    background-color: $container;
+    height: 800px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.info--container {
+
+    .info--image {
+        display: block;
+        height: 320px;
+        width: 320px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .info--content {
+        padding: 2em 3em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+
+        .info--name {
+            color: $title;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .info--prof {
+            color: $orange;
+            font-weight: 400;
+            font-size: 13px;
+            padding-block: .2em;
+        }
+
+        .info--site {
+            font-size: 11px;
+        }
+
+        .info--site a {
+            text-decoration: none;
+            color: $paragraph;
+
+            &:hover {
+                color: $button;
+            }
+        }
+
+        .btn--container {
+            display: flex;
+            flex-direction: row;
+            gap: 1.5em;
+            padding-block: 1em;
+
+            .btn {
+                height: 34px;
+                width: 115px;
+                left: 151px;
+                top: 469px;
+                border-radius: 6px;
+                padding: 9px, 13px, 9px, 11px;
+                outline: none;
+                border: none;
+                font-weight: 500;
+                display: inline-block;
+                font-size: 14px;
+                font-family: 'Inter', sans-serif;
+            }
+
+            i {
+                margin-right: .5em;
+            }
+
+            .btn--email {
+                box-shadow: 0px 1px 2px 0px #0000000D;
+                background-color: $white;
+                color: #374151;
+                border: 1px solid #D1D5DB;
+
+                & a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                &:hover {
+                    background-color: $orange;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+            .btn--linkedin {
+                background-color: $button;
+                color: $white;
+                box-shadow: 0px 1px 2px 0px #0000000D;
+
+                &:hover {
+                    background-color: $white;
+                    color: $orange;
+                    cursor: pointer;
+                    border: 1px solid $orange;
+                }
+
+                & a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+            }
+        }
+    }
+}
+
+.main--container {
+    padding-inline: 3em;
+    padding-bottom: 4em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+    .main--content {
+
+        .main--title {
+            color: $title;
+            font-size: 18px;
+            margin-bottom: .5em;
+        }
+    }
+}
+
+.footer {
+    background-color: $footer;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-evenly;
+    padding-inline: 4em;
+    padding-block: 1.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    i {
+        color: $icons;
+
+        &:hover {
+            color: $orange;
+        }
+    }
+}

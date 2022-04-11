@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #4A4E74;
+  font-size: 12px;
+  background-color: #23252C;
+  line-height: 16px;
+}
+
+.true--container {
+  margin-block: 5em;
+  margin-inline: auto;
+  background-color: #F5F5F5;
+  height: 800px;
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+.info--container .info--image {
+  display: block;
+  height: 320px;
+  width: 320px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info--container .info--content {
+  padding: 2em 3em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5em;
+}
+
+.info--container .info--content .info--name {
+  color: #2B283A;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info--container .info--content .info--prof {
+  color: #F47D27;
+  font-weight: 400;
+  font-size: 13px;
+  padding-block: .2em;
+}
+
+.info--container .info--content .info--site {
+  font-size: 11px;
+}
+
+.info--container .info--content .info--site a {
+  text-decoration: none;
+  color: #4A4E74;
+}
+
+.info--container .info--content .info--site a:hover {
+  color: #297FE5;
+}
+
+.info--container .info--content .btn--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.5em;
+  padding-block: 1em;
+}
+
+.info--container .info--content .btn--container .btn {
+  height: 34px;
+  width: 115px;
+  left: 151px;
+  top: 469px;
+  border-radius: 6px;
+  padding: 9px, 13px, 9px, 11px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+.info--container .info--content .btn--container i {
+  margin-right: .5em;
+}
+
+.info--container .info--content .btn--container .btn--email {
+  -webkit-box-shadow: 0px 1px 2px 0px #0000000D;
+          box-shadow: 0px 1px 2px 0px #0000000D;
+  background-color: #FFF;
+  color: #374151;
+  border: 1px solid #D1D5DB;
+}
+
+.info--container .info--content .btn--container .btn--email a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.info--container .info--content .btn--container .btn--email:hover {
+  background-color: #F47D27;
+  color: white;
+  cursor: pointer;
+}
+
+.info--container .info--content .btn--container .btn--linkedin {
+  background-color: #297FE5;
+  color: #FFF;
+  -webkit-box-shadow: 0px 1px 2px 0px #0000000D;
+          box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+.info--container .info--content .btn--container .btn--linkedin:hover {
+  background-color: #FFF;
+  color: #F47D27;
+  cursor: pointer;
+  border: 1px solid #F47D27;
+}
+
+.info--container .info--content .btn--container .btn--linkedin a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main--container {
+  padding-inline: 3em;
+  padding-bottom: 4em;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5em;
+}
+
+.main--container .main--content .main--title {
+  color: #2B283A;
+  font-size: 18px;
+  margin-bottom: .5em;
+}
+
+.footer {
+  background-color: #D5D4D8;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-inline: 4em;
+  padding-block: 1.5em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer i {
+  color: #918E9B;
+}
+
+.footer i:hover {
+  color: #F47D27;
+}
+/*# sourceMappingURL=style.css.map */
