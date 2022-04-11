@@ -7,7 +7,7 @@ This is a challenge from a Scrimba React class, the objective was to build a dig
 - BEM
 
 ## Screenshot
-[Screenshot.png](Screenshot.png)
+[Screenshot](Screenshot.png)
 
 ## Live Site
 
