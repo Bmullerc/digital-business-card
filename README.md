@@ -7,13 +7,13 @@ This is a challenge from a Scrimba React class, the objective was to build a dig
 - BEM
 
 ## Screenshot
-[Screenshot](Screenshot.png)
+![Screenshot](Screenshot.png)
 
 ## Live Site
 
 [Live Site](https://digital-business-card123.netlify.app/)
 
-### Thoughts and/or What I've learned
+## Thoughts and/or What I've learned
 
 - Not really confortable using my own picture, just not that type of person
 - Still grasping the basics of React, but feeling confortable and liking it a lot so far
