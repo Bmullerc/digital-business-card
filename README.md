@@ -15,7 +15,6 @@ This is a challenge from a Scrimba React class, the objective was to build a dig
 
 ## Thoughts and/or What I've learned
 
-- Not really confortable using my own picture, just not that type of person
 - Still grasping the basics of React, but feeling confortable and liking it a lot so far
 - SASS and BEM became pretty much second nature by now
 - Create React is easy to use, thought I would have trouble with Netlify or even Github uploading, but its very easy
